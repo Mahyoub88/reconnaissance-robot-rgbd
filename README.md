@@ -34,4 +34,12 @@ RGB-D, Kinect, RTAB-Map, Linux, Embedded Systems, Telemetry, GPS / GSM
 
 ## Links
 
-- [Portfolio project](https://mahyoub88.github.io/#proj-reconnaissance-robot)
+- [Portfolio project](https://mahyoub88.github.io/projects/proj-reconnaissance-robot/)
+
+## Illustrated project pages
+
+Project-specific diagrams, source media and implementation context:
+
+- [Reconnaissance Robot — RGB-D Mapping & Remote Control](https://mahyoub88.github.io/projects/proj-reconnaissance-robot/)
+
+[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
