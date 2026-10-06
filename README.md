@@ -1,12 +1,32 @@
 # Reconnaissance Robot — RGB-D Mapping & Remote Control
 
-## Illustrated engineering guide
+## Implementation at a glance
 
-[Read the full engineering guide](docs/engineering-guide.md) for architecture, workflow, design rationale, evidence notes and the source gallery.
+Designed, programmed, assembled, integrated and tested a four-motor reconnaissance rover with RGB-D mapping, sensing, telemetry and remote control.
 
-![Engineering overview](docs/overview/architecture.svg)
+| Responsibility | Documented implementation |
+|---|---|
+| 3D mapping | Kinect colour/depth acquisition over USB feeds RTAB-Map on Linux. |
+| 2D mapping | Ultrasonic sensing forms a separate mapping path. |
+| Control and telemetry | Touchscreen control, nRF commands, XBee sensor telemetry and Bluetooth mapping data serve distinct channels. |
+| Location reporting | GPS/GSM provides location reporting. |
+| Integration decision | Linux builds and Kinect drivers required compatibility work; the wired USB depth-data path was retained. |
 
-*Explanatory diagram added for this write-up.*
+The implemented scope is documented in the public project description. Physical-build photographs, raw maps and source code are not in this public repository; the diagrams below explain the system without posing as build photographs.
+
+### Architecture and implementation workflow
+
+![Explanatory functional architecture](docs/overview/architecture.svg)
+
+![Explanatory engineering workflow](docs/overview/workflow.svg)
+
+*Documentation diagrams based on the project scope; original source images and results are captioned separately.*
+
+[Full engineering guide](docs/engineering-guide.md) · [Illustrated case study](https://mahyoub88.github.io/projects/proj-reconnaissance-robot/)
+
+---
+
+
 
 **Author:** Mohammed Mahyoub.
 
