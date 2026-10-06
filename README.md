@@ -1,5 +1,25 @@
 # Reconnaissance Robot — RGB-D Mapping & Remote Control
 
+## Illustrated implementation walkthrough
+
+### Reconnaissance rover — component integration
+
+![Reconnaissance rover — component integration](docs/visuals/robot-system-illustration.png)
+
+[Open the scalable diagram](docs/visuals/robot-system-illustration.svg).
+
+### Reconnaissance rover — data and control paths
+
+![Reconnaissance rover — data and control paths](docs/visuals/robot-data-paths.png)
+
+[Open the scalable diagram](docs/visuals/robot-data-paths.svg).
+
+The rover illustration brings the documented interfaces into one view: Kinect supplies RGB-D data over USB to Linux/RTAB-Map, while ultrasonic mapping, control, sensor telemetry and GPS/GSM reporting have separate responsibilities. The data-path diagram explains why these links must be reviewed independently during integration.
+
+*These visuals were designed for this documentation. They explain the implemented scope; placement and geometry are illustrative, and the figures are not installation photographs, circuit schematics or new test results.*
+
+
+
 ## Implementation at a glance
 
 Designed, programmed, assembled, integrated and tested a four-motor reconnaissance rover with RGB-D mapping, sensing, telemetry and remote control.
