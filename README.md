@@ -1,5 +1,7 @@
 # Reconnaissance Robot — RGB-D Mapping & Remote Control
 
+[Read case study](https://mahyoub88.github.io/projects/proj-reconnaissance-robot/) · [Project index](docs/PROJECTS.md) · [Engineering guide](docs/engineering-guide.md)
+
 ## Illustrated implementation walkthrough
 
 ### Reconnaissance rover — component integration
@@ -17,7 +19,6 @@
 The rover illustration brings the documented interfaces into one view: Kinect supplies RGB-D data over USB to Linux/RTAB-Map, while ultrasonic mapping, control, sensor telemetry and GPS/GSM reporting have separate responsibilities. The data-path diagram explains why these links must be reviewed independently during integration.
 
 *These visuals were designed for this documentation. They explain the implemented scope; placement and geometry are illustrative, and the figures are not installation photographs, circuit schematics or new test results.*
-
 
 
 ## Implementation at a glance
@@ -47,7 +48,6 @@ The implemented scope is documented in the public project description. Physical-
 ---
 
 
-
 **Author:** Mohammed Mahyoub.
 
 Designed, programmed, integrated and tested a reconnaissance rover combining Kinect-based 3D mapping, ultrasonic 2D mapping, environmental sensing, GPS/GSM reporting and remote control.
@@ -75,11 +75,3 @@ RGB-D, Kinect, RTAB-Map, Linux, Embedded Systems, Telemetry, GPS / GSM
 ## Links
 
 - [Portfolio project](https://mahyoub88.github.io/projects/proj-reconnaissance-robot/)
-
-## Illustrated project pages
-
-Project-specific diagrams, source media and implementation context:
-
-- [Reconnaissance Robot — RGB-D Mapping & Remote Control](https://mahyoub88.github.io/projects/proj-reconnaissance-robot/)
-
-[Browse all engineering case studies](https://mahyoub88.github.io/projects/)
